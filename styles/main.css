@@ -96,6 +96,7 @@ h1 {
 }
 #contactme h2 {
   color: white;
+  text-align: center;
   font-size: 3rem;
   margin: 30px 0;
 }
@@ -121,4 +122,21 @@ h1 {
 }
 #contactme ul a li span img {
   width: 50px;
+}
+@media (max-width: 800px) {
+  #projects header {
+    width: 300px;
+  }
+  .project-tile {
+    width: 325px;
+  }
+  #contactme ul a li {
+    font-size: 1.4rem;
+  }
+  nav {
+    justify-content: center;
+  }
+  nav ul a li {
+    margin: 0 10px;
+  }
 }
